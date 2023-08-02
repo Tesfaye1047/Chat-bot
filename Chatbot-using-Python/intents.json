@@ -1,0 +1,72 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","hey, Proton"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "start",
+         "patterns": ["/start"],
+         "responses": ["Hello, Welcome to JIT AI Center"],
+         "context": [""]
+        },
+        
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye, proton", "Nice chatting to you, bye", "Till next time","cao"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": ["jdfsdhjsasjdal","asdihasdnasda","asjdasjdnakdja","saisduasdas","what what where where what","here here go go go  go they come"],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How can you help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered","whats your job"],
+         "responses":["I provide basic information about the AI Center of Jimma Institute of Technology"],
+
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["who are you", "tell me your name", "who should i call you"],
+         "responses":["Im Proton, I provide basic information about the AI Center of Jimma Institute of Technology","You can call me Proton, I provide basic information about the AI Center of Jimma Institute of Technology "],
+
+         "context": [""]
+        },
+       
+       {
+        "tag":"location",
+        "patterns":["where is JIT AI center found","tell me the location of JIT AI center","where are you now","how do you get to JIT ai center"],
+        "responses":["JIT AI center is located in JIT capmus at the ground floor of JIT library"],
+        "context": [""]
+            },
+            
+            {
+                "tag":"contact",
+                "patterns":["How do i contact the ceneter","how can i send message to the center","contact jit ai center"],
+                "responses":["You can E-mail to: ero@ju.edu.et or You can call to: +251-(0)47-111-2202"],
+                "context": [""]
+            },
+
+            {"tag": "centerjob",
+            "patterns": ["what does the ai center do","what is the purpose of the ai center"],
+            "responses": ["The AI Center at Jimma University does research in artificial intelligence and machine learning.","JIT AI centers research on artificial intelligence, develop AI applications, and teach AI to students."],
+            "context": [""]
+            },
+            {"tag": "creat",
+            "patterns": ["who created you","who developed you"],
+            "responses": ["I was created by interns at JIT AI Center",""],
+            "context": [""]
+            }
+
+        
+            
+        
+       
+        
+   ]
+}
